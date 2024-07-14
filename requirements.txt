@@ -1,0 +1,5 @@
+python==3.11.1
+numpy==1.25.0
+tensorcircuit==0.12.0
+tensorflow==2.16.2
+qiskit==1.1.1

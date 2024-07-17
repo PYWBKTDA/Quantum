@@ -1,4 +1,5 @@
 # Quantum
+
 记$U=\mathbb{C}^{2^{n}}$，对于$v\in U$且$|v|=1$，有以下两种操作：
 
 - 左乘幺正矩阵$M:U\rightarrow U$
@@ -11,12 +12,13 @@
 
   测量厄米矩阵：测量特征向量对应的正交基，并返回对应的特征值
 
-对于$2$维向量$\psi_{[1,n]}$，用$|\psi_{1}\psi_{2}\cdots\psi_{n}\rang$表示$\bigotimes_{i=1}^{n}\psi_{i}\in U$
+对于$2$维向量$\psi_{[1,n]}$，用$|\psi_{1}\psi_{2}\cdots\psi_{n}\rangle$表示$\bigotimes_{i=1}^{n}\psi_{i}\in U$
 
-若$0_{i}$和$1_{i}$正交，则$|0_{1}0_{2}\cdots 0_{n}\rang,|0_{1}0_{2}\cdots 1_{n}\rang,\cdots,|1_{1}1_{2}\cdots 1_{n}\rang$为$U$的正交基
+若$0_{i}$和$1_{i}$正交，则$|0_{1}0_{2}\cdots 0_{n}\rangle,|0_{1}0_{2}\cdots 1_{n}\rangle,\cdots,|1_{1}1_{2}\cdots 1_{n}\rangle$为$U$的正交基
 
-对于$2$维幺正矩阵$A_{[1,n]}$，则$A=\bigotimes_{i=1}^{n}A_{i}:U\rightarrow U$也为幺正矩阵，且$A|\psi_{1}\psi_{2}...\psi_{n}\rang=|A_{1}\psi_{1},A_{2}\psi_{2}\cdots A_{n}\psi_{n}\rang$
+对于$2$维幺正矩阵$A_{[1,n]}$，则$A=\bigotimes_{i=1}^{n}A_{i}:U\rightarrow U$也为幺正矩阵，且$A|\psi_{1}\psi_{2}...\psi_{n}\rangle=|A_{1}\psi_{1},A_{2}\psi_{2}\cdots A_{n}\psi_{n}\rangle$
 
 在通信中，设手中的量子集合为$S$，则$M_{i,j}\ne 0$需满足$i$和$j$不在$S$中的位相同
 
-#### 量子算法
+# Quantum Algorithm
+
